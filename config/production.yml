@@ -1,0 +1,10 @@
+options:
+  host: https://dashboard.qubitproducts.com
+db:
+  user: root
+  password: password
+  host: dashboard.db.qutics.com
+log:
+  sentry: http://69858a134fe246ff8f72b31d4c7bf7a0:9a4f60553a5f4ccd97e9680687938146@sentry.qutics.com/28
+  console:
+    level: info

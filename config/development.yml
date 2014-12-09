@@ -1,0 +1,8 @@
+db:
+  user: root
+  password: password
+  host: localhost
+log:
+  sentry: false
+  console:
+    level: debug

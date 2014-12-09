@@ -1,0 +1,10 @@
+options:
+  host: https://staging-dashboard.qubitproducts.com
+db:
+  user: root
+  password: password
+  host: n01.dashboard.staging.qutics.com
+log:
+  sentry: http://169332a797e04894ae1be0534b3b0659:1f88f3261d0143a09ae48ecef1782150@sentry.qutics.com/29
+  console:
+    level: info
