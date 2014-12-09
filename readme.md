@@ -11,12 +11,12 @@
  npm install -g bower
  ```
 
- - Install dependencies 
+- Install dependencies 
  ```
  bower install 
  ```
  
- - Run a local HTTP server to serve the app :
+- Run a local HTTP server to serve the app :
  ```
  python -m SimpleHTTPServer
  ```
