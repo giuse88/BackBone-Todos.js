@@ -1,4 +1,9 @@
 port: 3000
+db:
+  user: root
+  password: password
+  host : 127.0.0.1
+  database: todo
 options:
   auth_token: open_says_me
   dateFormat: YYYY-MM-DD
