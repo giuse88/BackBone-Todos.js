@@ -5,21 +5,9 @@
 > _[Backbone.js - backbonejs.org](http://backbonejs.org)_
 
 ## Starting the app 
-
-- Install bower  
- ```
- npm install -g bower
- ```
-
-- Install dependencies 
- ```
- bower install 
- ```
- 
-- Run a local HTTP server to serve the app :
- ```
- python -m SimpleHTTPServer
- ```
+```
+  make 
+```
 
 ## Learning Backbone.js
 

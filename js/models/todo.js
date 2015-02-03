@@ -9,22 +9,17 @@ var app = app || {};
 
 	// Our basic **Todo** model has `title`, `order`, and `completed` attributes.
 	app.Todo = Backbone.Model.extend({
-		/* TO BE IMPLEMENTED */	
+		// Default attributes for the todo
+		// and ensure that each todo created has `title` and `completed` keys.
 		defaults: {
-			title: "",
-			status: false
+			title: '',
+			completed: false
 		},
 
-		initialize : function () {
-			console.log("New model");
-			this.on("change", function () {
-				console.log("changed");
-			});
-		},
-
-		toggle: function() {
+		// Toggle the `completed` state of this todo item.
+		toggle: function () {
 			this.save({
-				status: !this.get('status')
+				completed: !this.get('completed')
 			});
 		}
 	});
